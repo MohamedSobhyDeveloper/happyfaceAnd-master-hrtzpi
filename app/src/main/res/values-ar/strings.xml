@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+
+    <string name="app_name">حارة زمان</string>
+
+    <string name="image">صورة</string>
+
+    <string name="chat">تواصل</string>
+
+    <string name="discounts">تخفيضات</string>
+
+    <string name="favorite">المفضلة</string>
+
+    <string name="gifts">هدايا</string>
+
+    <string name="home">الرئيسية</string>
+
+    <string name="offers">العروض</string>
+
+    <string name="search">بحث</string>
+
+    <string name="shopping_cart">سلة التسوق</string>
+
+    <string name="or">أو</string>
+
+    <string name="email_here">ايميل</string>
+
+    <string name="pass">كلمة مرور</string>
+
+    <string name="login">دخول</string>
+
+    <string name="forgot_pass">نسيت كلمة المرور ??</string>
+
+    <string name="sign_up">تسجيل</string>
+
+    <string name="conf_pass">تأكيد كلمة مرور</string>
+
+    <string name="register">تسجيل</string>
+
+    <string name="first_name">الاسم</string>
+
+    <string name="last_name">الاسم الاخير</string>
+
+    <string name="name">الاسم</string>
+
+    <string name="phone">هاتف</string>
+
+    <string name="ok">حسنا</string>
+
+    <string name="connection_error">تأكد من الاتصال</string>
+
+    <string name="full_name">الاسم كامل</string>
+
+    <string name="full_name_empty">الاسم فارغ</string>
+
+    <string name="email_empty">الايميل فارغ</string>
+
+    <string name="email_mobile_empty">أحد الحقول فارغ</string>
+
+    <string name="password_empty">كلمة المرور فارغ</string>
+
+    <string name="confirm_password_empty">تأكد من تعبئة كلمة المرور</string>
+
+    <string name="password_doesnt_match">كلمة المرور غير مطابقة</string>
+
+    <string name="forgot">تجاهل</string>
+
+    <string name="google">جوجل+</string>
+
+    <string name="facebook">فيس بوك</string>
+
+    <string name="login_using_a_social_media_account">تسجيل مع حسابات التواصل</string>
+
+    <string name="welcome">مرحبا</string>
+
+    <string name="verification_empty">التفعيل فارغ!</string>
+
+    <string name="phone_empty">الهاتف فارغ</string>
+
+    <string name="block_empty">القطعة فارغ</string>
+
+    <string name="street_empty">الشارع فارغ</string>
+
+    <string name="houseno_empty">المنزل فارغ</string>
+
+    <string name="please_enter_the_code_that_we_send_it_in_your_mobile">رجاء تسجيل الكود المرسل </string>
+
+    <string name="send_code">ارسل كود</string>
+
+    <string name="reset_password_now">اعادة تعيين كلمة مرور</string>
+
+    <string name="password">كلمة مرور</string>
+
+    <string name="conf_password">تأكيد كلمة مرور</string>
+
+    <string name="change">تغير</string>
+
+    <string name="password_invalid_error">كلمة مرور لا تقل عن 8 احرف </string>
+
+    <string name="email_doesnt_exist">ايميل غير موجود</string>
+
+    <string name="filter">فرز</string>
+
+    <string name="sort_by">ترتيب:</string>
+
+    <string name="low_price">أقل سعر</string>
+
+    <string name="high_price">أعلى سعر</string>
+
+    <string name="newest">الأحدث</string>
+
+    <string name="oldest">الأقدم</string>
+
+    <string name="back">عودة</string>
+
+    <string name="videos">فيديو</string>
+
+    <string name="profile">حسابي</string>
+
+    <string name="sizes">مقاسات</string>
+
+    <string name="d_reviewers">%d reviewers</string>
+
+    <string name="description">وصف:</string>
+
+    <string name="add_to_cart_s">اضافة الى السلة </string>
+
+    <string name="buy_now_s">الشراء الآن</string>
+
+    <string name="remove">حذف</string>
+
+    <string name="add">اضافة</string>
+
+    <string name="s_kwd"> دك</string>
+
+    <string name="f_kwd"> دك</string>
+
+    <string name="dis_s_kwd">تخفيض %s KWD</string>
+
+    <string name="cart">السلة</string>
+
+    <string name="total">الاجمالي</string>
+
+    <string name="no_items_found">لا يوجد عناصر</string>
+
+    <string name="product_id_s">كود:</string>
+
+    <string name="order">الطلب</string>
+
+    <string name="messages">رسائل</string>
+
+    <string name="address">العنوان</string>
+
+    <string name="governorate">المحافظة</string>
+
+    <string name="area">المنطقة</string>
+
+    <string name="block">القطعة</string>
+
+    <string name="street">الشارع</string>
+
+    <string name="avenue">الجادة</string>
+
+    <string name="cancel">الغاء</string>
+
+    <string name="edit_name">تحرير الاسم</string>
+
+    <string name="edit_s">تحرير %s</string>
+
+    <string name="sign_out">خروج</string>
+
+    <string name="skip">تخطي</string>
+
+    <string name="change_language">تغيير اللغة</string>
+
+    <string name="message_content">محتوى الرسالة</string>
+
+    <string name="message">الرسالة</string>
+
+    <string name="add_promocode">اضافة بروكود</string>
+
+    <string name="send">ارسال</string>
+
+    <string name="select_color">اختر لون</string>
+
+    <string name="products">منتجات</string>
+
+    <string name="account">حساب</string>
+
+    <string name="confirm_bill">تأكيد الدفع</string>
+
+    <string name="thanks_for_using_happy_application">شكرا لاختياركم هابي فيس</string>
+
+    <string name="sale">تنزيلات</string>
+
+    <string name="subcode_s">SubCode: %s</string>
+
+    <string name="promo_code">رقم العرض</string>
+
+    <string name="done_copied">تم النسخ بنجاح</string>
+
+    <string name="you_have_a_gift">لديك هدايا:</string>
+
+
+    -<string name="tab_text_unselected_line" translatable="false">
+
+-<![CDATA[<font color="#EA1F22"><b>%s<b/></font>]]>
+</string>
+
+
+    -<string name="tab_text_selected_line" translatable="false">
+
+-<![CDATA[<font color="#ffffff"><b>%s<b/></font>]]>
+</string>
+
+    <string name="product_information">معلومات المنتج</string>
+
+    <string name="product_sku">وصف SKU</string>
+
+    <string name="weight">الوزن</string>
+
+    <string name="recommended_age">توصى لعمر </string>
+
+    <string name="gender">النوع</string>
+
+    <string name="girl">بناتي</string>
+
+    <string name="boy">ولادي</string>
+
+    <string name="remark_address">ملاحظات العنوان</string>
+
+    <string name="house_no">المنزل</string>
+
+    <string name="male">ولادي</string>
+
+    <string name="female">بناتي</string>
+
+    <string name="birthday">تاريخ الميلاد</string>
+
+    <string name="birthday_s">تاريخ الميلاد %s</string>
+
+    <string name="checkout">الدفع</string>
+
+    <string name="order_total">اجمالي الطلب</string>
+
+    <string name="choose_from_covers">اختر من المغلفات : %s دك</string>
+
+    <string name="choose_from_cards">اختر من الكروت : %s دك</string>
+
+    <string name="choose_from_additionals">اختر من الاضافات : %s دك</string>
+
+    <string name="write_a_message">اكتب رسالة</string>
+
+    <string name="gift_covering">غلاف الرسالة</string>
+
+    <string name="save">حفظ</string>
+
+    <string name="from">من</string>
+
+    <string name="to">إلى</string>
+
+    <string name="cover_id">رقم الكارت:</string>
+
+    <string name="to_s">الى: %s</string>
+
+    <string name="message_s">رسالة: %s</string>
+
+    <string name="from_s">من: %s </string>
+
+    <string name="edit_additionals">تعديل التغليف</string>
+
+    <string name="add_additionals">اضافة تغليف</string>
+
+    <string name="title_activity_maps">خريطة</string>
+
+    <string name="current_location">العنوان على الخريطة</string>
+
+    <string name="current_location_s">الموقع الحالى:\n %f, %f</string>
+
+    <string name="current_location_ss">الموقع الحالى:\n</string>
+
+    <string name="confirm">تأكيد</string>
+
+    <string name="want_to_exit">هل تود الخروج؟</string>
+
+    <string name="yes">نعم</string>
+
+    <string name="no">لا، مازلت اتسوق</string>
+
+    <string name="choose_current_location">اختر مكانك الحالي</string>
+
+    <string name="choose_area">اختر المنطقة</string>
+
+    <string name="address_details">تفاصيل العنوان</string>
+
+    <string name="enter_your_address">اضف العنوان</string>
+    <string name="block_">القطعة:</string>
+    <string name="street_">الشارع:</string>
+    <string name="house_no_"> المنزل:</string>
+    <string name="floor_">الدور:</string>
+    <string name="flat_">الشقة:</string>
+    <string name="flat">الشقة</string>
+    <string name="floor">الدور</string>
+    <string name="edit_profile">تعديل العنوان</string>
+    <string name="area_">المنطقة:</string>
+    <string name="avenue_">الجادة:</string>
+    <string name="remark_address_">ملاحظات العنوان:</string>
+    <string name="data_updated_successfully">تم التحديث بنجاح</string>
+</resources>
