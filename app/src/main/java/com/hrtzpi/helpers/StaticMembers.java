@@ -36,7 +36,7 @@ import okhttp3.ResponseBody;
 
 public class StaticMembers {
 
-    public static final String domain = "https://insightclosely.com/happy/public/api/";
+    public static final String domain = "https://insightclosely.com/hrtzpi/public/api/";
     public static final String CAT = "categories";
     public static final String CATEGORY = "category";
     public static final String CATEGORY_ID = "category_id";
