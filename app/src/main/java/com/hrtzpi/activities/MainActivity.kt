@@ -54,7 +54,17 @@ class MainActivity : BaseActivity() {
         }
         tabLayout.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener {
             override fun onTabReselected(p0: TabLayout.Tab?) {
-
+                when (p0?.position) {
+                    0 -> {
+//                        switchToMain()
+                        isBShowing = false
+                        containerMain.visibility = VISIBLE
+                        containerOther.visibility = GONE
+                        containerProducts.visibility = GONE
+                        params.remove(CATEGORY_ID)
+                        productsFragment.removeProducts()
+                    }
+                }
             }
 
             override fun onTabUnselected(tab: TabLayout.Tab) {
@@ -63,7 +73,15 @@ class MainActivity : BaseActivity() {
             override fun onTabSelected(tab: TabLayout.Tab) {
                 when (tab.position) {
                     0 -> {
-                        switchToMain()
+//                        switchToMain()
+//                        openFragment(R.id.containerProducts, productsFragment, PRODUCTS)
+                        isBShowing = false
+                        containerMain.visibility = VISIBLE
+                        containerOther.visibility = GONE
+                        containerProducts.visibility = GONE
+                        params.remove(CATEGORY_ID)
+                        productsFragment.removeProducts()
+                        tabLayout.getTabAt(0)?.select();
                     }
                     else -> {
                         isBShowing = true
