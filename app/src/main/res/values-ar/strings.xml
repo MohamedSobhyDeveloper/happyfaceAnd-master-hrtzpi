@@ -132,9 +132,9 @@
 
     <string name="add">اضافة</string>
 
-    <string name="s_kwd"> دك</string>
+    <string name="s_kwd"> ج.م</string>
 
-    <string name="f_kwd"> دك</string>
+    <string name="f_kwd"> ج.م</string>
 
     <string name="dis_s_kwd">تخفيض %s KWD</string>
 
@@ -244,11 +244,11 @@
 
     <string name="order_total">اجمالي الطلب</string>
 
-    <string name="choose_from_covers">اختر من المغلفات : %s دك</string>
+    <string name="choose_from_covers">اختر من المغلفات : %s ج.م</string>
 
-    <string name="choose_from_cards">اختر من الكروت : %s دك</string>
+    <string name="choose_from_cards">اختر من الكروت : %s ج.م</string>
 
-    <string name="choose_from_additionals">اختر من الاضافات : %s دك</string>
+    <string name="choose_from_additionals">اختر من الاضافات : %s ج.م</string>
 
     <string name="write_a_message">اكتب رسالة</string>
 

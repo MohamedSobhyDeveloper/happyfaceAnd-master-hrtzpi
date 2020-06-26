@@ -132,6 +132,9 @@ class MainActivity : BaseActivity() {
         containerOther.visibility = GONE
         containerProducts.visibility = VISIBLE
         productsFragment.getProducts()
+        params[StaticMembers.SEARCH] = ""
+        search.setText("")
+
     }
 
     private fun openFragment(id: Int, fragment: Fragment, tag: String) {

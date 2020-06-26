@@ -218,7 +218,7 @@ public class CartActivity extends BaseActivity {
             @Override
             public void onClick(View view) {
                 user = (User) PrefManager.getInstance(CartActivity.this).getObject(USER, User.class);
-                if (user.getArea()!=null&&user.getBlock()!=null&&user.getStreet()!=null&&user.getHouse_no()!=null){
+                if (user.getArea()!=null&&user.getStreet()!=null&&user.getHouse_no()!=null){
                     CallCheckOut();
 
                 }else {
@@ -283,12 +283,12 @@ public class CartActivity extends BaseActivity {
             flatNo.setText(user.getFlat()+"");
         }
 
-        if (user.getLat()!=null&&!user.getLat().equals("0")){
-            currentLocation.setText(getString(R.string.current_location_ss)+ user.getLat()+","+ user.getLon());
-            slat= Double.parseDouble(user.getLat());
-            slong= Double.parseDouble(user.getLon());
-            currentLocationvalue=slat+slong+"";
-        }
+//        if (user.getLat()!=null&&!user.getLat().equals("0")){
+//            currentLocation.setText(getString(R.string.current_location_ss)+ user.getLat()+","+ user.getLon());
+//            slat= Double.parseDouble(user.getLat());
+//            slong= Double.parseDouble(user.getLon());
+//            currentLocationvalue=slat+slong+"";
+//        }
 
 
 
@@ -337,7 +337,7 @@ public class CartActivity extends BaseActivity {
                         StaticMembers.CheckTextInputEditText(street, getString(R.string.street_empty))&&
                         StaticMembers.CheckTextInputEditText(houseNo, getString(R.string.houseno_empty))
                 ){
-                    if (!currentLocationvalue.equals("")){
+
                         User newuser =new User();
                         newuser.setArea(selectedArea);
                         newuser.setAvenue(avenue.getText().toString()+"");
@@ -347,20 +347,17 @@ public class CartActivity extends BaseActivity {
                         newuser.setEmail(user.getEmail());
                         newuser.setId(user.getId());
                         newuser.setLanguage(user.getLanguage());
-                        newuser.setLat(slat+"");
-                        newuser.setLon(slong+"");
+//                        newuser.setLat(slat+"");
+//                        newuser.setLon(slong+"");
                         newuser.setName(user.getName());
                         newuser.setRemarkaddress(remarkAddress.getText().toString()+"");
                         newuser.setStreet(street.getText().toString()+"");
                         newuser.setTelephone(user.getTelephone());
                         newuser.setFloor(floorNo.getText().toString()+"");
                         newuser.setFlat(flatNo.getText().toString()+"");
-
 //                        startActivity(new Intent(getBaseContext(), ConfirmBillActivity.class));
                         UpdateAddressDetails(newuser);
-                    }else {
-                        TastyToast.makeText(CartActivity.this,getString(R.string.choose_current_location),TastyToast.LENGTH_SHORT,TastyToast.INFO);
-                    }
+
                 }
             }
         });
@@ -442,8 +439,8 @@ public class CartActivity extends BaseActivity {
         params.put(StaticMembers.REMARK_ADDRESS, user.getRemarkaddress());
         params.put(StaticMembers.HOUSE_NO, user.getHouse_no());
         params.put(StaticMembers.AREA, user.getArea());
-        params.put(StaticMembers.LAT_, user.getLat());
-        params.put(StaticMembers.LON, user.getLon());
+//        params.put(StaticMembers.LAT_, user.getLat());
+//        params.put(StaticMembers.LON, user.getLon());
         params.put(StaticMembers.floor, user.getFloor());
         params.put(StaticMembers.flat, user.getFlat());
 

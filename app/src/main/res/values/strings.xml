@@ -71,9 +71,9 @@
     <string name="buy_now_s">Buy Now </string>
     <string name="remove">Remove</string>
     <string name="add">Add</string>
-    <string name="s_kwd">KWD</string>
-    <string name="f_kwd">KWD</string>
-    <string name="dis_s_kwd">Discount %s KWD</string>
+    <string name="s_kwd">EGP</string>
+    <string name="f_kwd">EGP</string>
+    <string name="dis_s_kwd">Discount %s EGP</string>
     <string name="cart">Cart</string>
     <string name="total">Total</string>
     <string name="no_items_found">No items found</string>
@@ -123,9 +123,9 @@
     <string name="birthday_s">Birthday %s</string>
     <string name="checkout">Checkout</string>
     <string name="order_total">Order total</string>
-    <string name="choose_from_covers">Choose from Covers : %s KWD</string>
-    <string name="choose_from_cards">Choose from Cards : %s KWD</string>
-    <string name="choose_from_additionals">Choose from Additionals : %s KWD</string>
+    <string name="choose_from_covers">Choose from Covers : %s EGP</string>
+    <string name="choose_from_cards">Choose from Cards : %s EGP</string>
+    <string name="choose_from_additionals">Choose from Additionals : %s EGP</string>
     <string name="write_a_message">Write a Message</string>
     <string name="gift_covering">Gift covering</string>
     <string name="save">Save</string>

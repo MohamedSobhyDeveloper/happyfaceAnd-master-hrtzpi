@@ -6,9 +6,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher"
+        android:layout_width="@dimen/_75sdp"
+        android:layout_height="@dimen/_75sdp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/hartlogo"
         android:id="@+id/popup_text"
         android:textSize="@dimen/_20sdp"
         android:textStyle="bold"
