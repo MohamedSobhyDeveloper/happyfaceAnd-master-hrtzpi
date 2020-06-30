@@ -31,7 +31,7 @@ public class Data{
 	private String lastPageUrl;
 
 	@SerializedName("next_page_url")
-	private Object nextPageUrl;
+	private String nextPageUrl;
 
 	@SerializedName("from")
 	private int from;
@@ -101,11 +101,11 @@ public class Data{
 		return lastPageUrl;
 	}
 
-	public void setNextPageUrl(Object nextPageUrl){
+	public void setNextPageUrl(String nextPageUrl){
 		this.nextPageUrl = nextPageUrl;
 	}
 
-	public Object getNextPageUrl(){
+	public String getNextPageUrl(){
 		return nextPageUrl;
 	}
 

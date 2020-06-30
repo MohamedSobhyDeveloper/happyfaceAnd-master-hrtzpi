@@ -64,18 +64,48 @@ public class ProductsFragment extends Fragment {
         productList = new ArrayList<>();
         adapter = new ProductsAdapter(getContext(), productList, loading,getActivity());
         recycler.setAdapter(adapter);
+
         recycler.addOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
             public void onScrollStateChanged(@NonNull RecyclerView recyclerView, int newState) {
                 super.onScrollStateChanged(recyclerView, newState);
-                if (!recyclerView.canScrollVertically(1) && !reachBottom && page < maxPage) {
-                    reachBottom = true;
+                if (!recyclerView.canScrollVertically(1) && page < maxPage) {
+//                    reachBottom = true;
                     page++;
-                    getProducts();
+                    params.put("page",page+"");
+                    getProducts(false);
                 }
             }
         });
-        swipe.setOnRefreshListener(this::getProducts);
+
+
+//        recycler.addOnScrollListener(new RecyclerView.OnScrollListener() {
+//            @Override
+//            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+//                if (dy > 0) {
+//                    visibleItemCount = layoutManager.getChildCount();
+//                    totalItemCount = layoutManager.getItemCount();
+//                    pastVisiblesItems = layoutManager.findFirstVisibleItemPosition();
+//
+//                    if (loading) {
+//                        if ((visibleItemCount + pastVisiblesItems) >= totalItemCount) {
+//
+//                            CallGetDiscussionMore();
+//                            loading = false;
+//                        }
+//                    }
+//                }
+//            }
+//
+//        });
+
+
+        swipe.setOnRefreshListener(() -> {
+            page=1;
+            params.remove("page");
+            getProducts();
+        });
+
         getProducts();
     }
 
@@ -96,7 +126,6 @@ public class ProductsFragment extends Fragment {
             public void onResponse(@NotNull Call<ProductsResponse> call, @NotNull Response<ProductsResponse> response) {
                 if (loading!=null&&loading.isShowing()){
                     loading.dismiss();
-
                 }
                 swipe.setRefreshing(false);
                 if (response.isSuccessful() && response.body() != null && response.body().getData() != null) {
@@ -136,6 +165,8 @@ public class ProductsFragment extends Fragment {
     public void removeProducts() {
         if (productList != null)
             productList.clear();
+        params.remove("page");
+        page=1;
         adapter.notifyDataSetChanged();
         isRefresh = true;
         if (loading!=null&&loading.isShowing()){
